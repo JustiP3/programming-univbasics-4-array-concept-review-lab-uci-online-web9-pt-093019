@@ -32,7 +32,7 @@ end
  def find_min_value(array)
   min = array[0]
   index = 0 
-  while array do
+  while index < array.length do
     current = array[index]
   if current <= min 
    min = current 
