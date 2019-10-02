@@ -12,15 +12,17 @@
 end
 
 def find_max_value(array)
- # max = 0 
-  #index = 0 
+  max = 0 
+  index = 0 
   
-#  le = array.length 
+  while array do 
+      if array[index] > max
+      max = array[index]
+      end
+  index += 1 
+  end 
 
- # if array[index] > max
-  #max = array[index]
-  #end
-
+max 
 end
 
 
