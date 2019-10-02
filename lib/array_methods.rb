@@ -16,8 +16,9 @@ def find_max_value(array)
   index = 0 
   
   while array do 
-      if array[index] > max
-      max = array[index]
+    current = array[index]
+      if current  > max
+      max = current 
       end
   index += 1 
   end 
