@@ -34,9 +34,10 @@ end
   index = 0 
   while index < array.length do
     current = array[index]
-  if current <= min 
+  if current < min 
    min = current 
   end
     index += 1 
   end
+  min
 end
